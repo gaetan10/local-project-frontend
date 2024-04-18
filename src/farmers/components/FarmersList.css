@@ -1,0 +1,28 @@
+/* Styles for the farmers list container */
+.farmers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-evenly; /* Ensure even spacing between cards */
+  }
+  
+  /* Adjust the width of cards based on screen width */
+  @media screen and (min-width: 1200px) {
+    .farmers-list .farmer-card {
+      width: calc(33.33% - 20px); /* For screens wider than 1200px, display max 3 cards per row */
+    }
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .farmers-list .farmer-card {
+      width: calc(50% - 20px); /* For screens up to 1199px wide, display max 2 cards per row */
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .farmers-list .farmer-card {
+      width: calc(100% - 40px); /* For screens up to 800px wide, display max 1 card per row */
+    }
+  }
+  

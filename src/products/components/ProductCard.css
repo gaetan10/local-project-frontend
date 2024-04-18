@@ -1,0 +1,32 @@
+.product-card {
+    width: 200px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border: 1px solid #e0e0e0; /* Airbnb-like border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Airbnb-like box shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 16px;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+}
+
+.product-image img {
+    width: 100px; /* Adjust size of the circular image */
+    height: 100px; /* Adjust size of the circular image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.add-to-basket {
+    text-align: center;
+}

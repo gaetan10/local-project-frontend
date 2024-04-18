@@ -1,0 +1,10 @@
+.photo-gallery {
+    display: flex;
+  
+}
+
+.photo {
+    width: 33.333%; /* Adjust the width of images as needed */
+    height: auto;
+    margin: 0; /* Remove default margin */
+}

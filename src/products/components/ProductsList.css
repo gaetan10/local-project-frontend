@@ -1,0 +1,11 @@
+/* .products-list{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum and maximum width of each column as needed */
+    grid-gap: 100px; /* Adjust the gap between each card */
+    width: 100%;
+}

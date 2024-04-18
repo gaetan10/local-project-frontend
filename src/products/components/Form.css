@@ -1,0 +1,49 @@
+/* Styles for the form container */
+.form-container {
+    width: 50%; /* Adjust as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #e0e0e0; /* Add a border */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Styles for the form fields */
+  .form-field {
+    margin-bottom: 20px; /* Add space between fields */
+  }
+  
+  /* Styles for the form labels */
+  .form-label {
+    display: block; /* Ensure labels are on their own line */
+    margin-bottom: 5px; /* Add some space below labels */
+    font-weight: 600; /* Add some weight to labels */
+  }
+  
+  /* Styles for the form input fields */
+  .form-input {
+    width: 100%; /* Make input fields full width */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #e0e0e0; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+
+  .form-submit {
+    width: 30%; /* Make button full width */
+    padding: 10px; /* Add some padding */
+    margin: 0 auto;
+    background-color: #4F7942; /* Airbnb's brand color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-weight: 600;
+  }
+  
+  /* Hover effect for the form submit button */
+  .form-submit:hover {
+    background-color: #2d3f27; /* Darker shade of brand color */
+  }

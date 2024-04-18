@@ -1,0 +1,51 @@
+
+/* Styles for the header container */
+.header {
+    background-color: #4F7942	;
+    color: #fff;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styles for the logo */
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .nav-links{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /* Styles for the navigation links */
+  .nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+  }
+  
+  /* Styles for each navigation link */
+  .nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  
+  /* Styles for the active navigation link */
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .logo-link{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+  }

@@ -1,0 +1,70 @@
+/* Styles for the farmer card container */
+.farmer-card {
+    width: calc(33.33% - 20px); /* 3 cards in a row with margin */
+    margin: 10px; /* Margin around each card */
+    background-color: #ffffff; /* Background color of the card */
+    border: 1px solid #eaeaea; /* Border for the card */
+    border-radius: 8px; /* Border radius for rounded corners */
+    overflow: hidden; /* Ensure rounded corners for the image */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 
+                0 1px 2px rgba(0, 0, 0, 0.24); /* Box shadow for a subtle effect */
+  }
+  
+  /* Styles for the farmer picture */
+  .farmer-picture img {
+    width: 100%; /* Ensures the image fills the container */
+    max-width: 100%;
+    height: 50%; /* Image takes half of the height of the card */
+    max-height: 300px;
+    object-fit: cover; /* Scales the image to cover the entire container */
+    border-top-left-radius: 8px; /* Rounded corners for top-left and top-right */
+    border-top-right-radius: 8px;
+  }
+  
+  /* Styles for the farmer info section */
+  .farmer-info {
+   
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text */
+  }
+  
+  /* Styles for the farmer name */
+  .farmer-info h4 {
+    margin: 0; /* Removes default margin */
+    color: #333333; /* Text color for the name */
+    font-size: 18px; /* Font size for the name */
+    font-weight: 700; /* Font weight for the name */
+  }
+  
+  /* Styles for the farmer address */
+  .farmer-info p {
+    margin: 5px 0; /* Adds space below the name */
+    color: #666666; /* Text color for the address */
+    font-size: 14px; /* Font size for the address */
+  }
+  
+  /* Styles for the farmer products section */
+  .farmer-products {
+    padding: 15px; /* Padding for the products section */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+  }
+  
+  /* Styles for the products overview */
+  .farmer-products p {
+    margin: 0; /* Removes default margin */
+    color: #666666; /* Text color for the products overview */
+    font-size: 14px; /* Font size for the products overview */
+  }
+
+  .card-link{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+  }
+  

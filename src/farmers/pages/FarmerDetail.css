@@ -1,0 +1,65 @@
+.gallery{
+    margin-top: 20px;
+}
+
+.farmer-information{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.farmer-presentation {
+    margin-right: 90px; /* Add some space between the sections */
+    max-width: 800px;
+}
+
+.farmers-presentation, .farmer-details {
+    flex: 0 1 45%; /* Let's limit each section to 45% of the container width */
+}
+
+.farmer-details {
+    margin-left: 20px; /* Add some space between the sections */
+
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li i {
+    margin-right: 5px;
+    color: #FF5A5F; /* Adjust icon color as needed */
+}
+
+/* .actions{
+    display: flex;
+    justify-content: left;
+} */
+
+.farmer-products {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.products-header{
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
